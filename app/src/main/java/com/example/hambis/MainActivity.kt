@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
                 resultTextView.setText(generateResultString("Doube Cheese Burger", doubleCheesePrice))
             }
     }
+    //FUNCTIONS
 
 
     fun generateResultString(productName: String, price:Int) :String{
